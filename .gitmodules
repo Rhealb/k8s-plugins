@@ -1,0 +1,3 @@
+[submodule "admission-controller"]
+	path = admission-controller
+	url = https://github.com/Rhealb/admission-controller.git
