@@ -1,5 +1,9 @@
 # K8splugins 
 
+## 说明
+
+[English](README.md) | [中文](README-zh.md)
+
 K8splugins 是对k8s集群功能的扩充，在不修改k8s代码的前提下对其做一些私有订制．所有这些功能多以插件的形式或者Pod的形式运行在k8s集群上，这使得无论是k8s升级还是插件升级变得更容易．
 
 ## 代码
