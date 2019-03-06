@@ -1,3 +1,18 @@
 [submodule "admission-controller"]
 	path = admission-controller
 	url = https://github.com/Rhealb/admission-controller.git
+[submodule "cloud-controller"]
+	path = cloud-controller
+	url = https://github.com/Rhealb/cloud-controller.git
+[submodule "kubectl-plugins"]
+	path = kubectl-plugins
+	url = https://github.com/Rhealb/kubectl-plugins.git
+[submodule "extender-scheduler"]
+	path = extender-scheduler
+	url = https://github.com/Rhealb/extender-scheduler.git
+[submodule "extender-controller-manager"]
+	path = extender-controller-manager
+	url = https://github.com/Rhealb/extender-controller-manager.git
+[submodule "csi-plugin"]
+	path = csi-plugin
+	url = https://github.com/Rhealb/csi-plugin.git
