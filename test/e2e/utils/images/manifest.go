@@ -18,8 +18,9 @@ package image
 
 import (
 	"fmt"
-	"k8s-plugins/test/e2e/framework"
 	"runtime"
+
+	"github.com/k8s-plugins/test/e2e/framework"
 )
 
 type ImageConfig struct {

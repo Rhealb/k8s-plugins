@@ -19,13 +19,13 @@ package e2e
 import (
 	"testing"
 
-	"k8s-plugins/test/e2e/framework"
+	"github.com/k8s-plugins/test/e2e/framework"
 
-	_ "k8s-plugins/test/e2e/admission-controller/hppvtocsipv"
-	_ "k8s-plugins/test/e2e/admission-controller/nshostpathprivilege"
-	_ "k8s-plugins/test/e2e/admission-controller/podpriority"
-	_ "k8s-plugins/test/e2e/csi-plugin/hostpath"
-	_ "k8s-plugins/test/e2e/enndatascheduler"
+	_ "github.com/k8s-plugins/test/e2e/admission-controller/hppvtocsipv"
+	_ "github.com/k8s-plugins/test/e2e/admission-controller/nshostpathprivilege"
+	_ "github.com/k8s-plugins/test/e2e/admission-controller/podpriority"
+	_ "github.com/k8s-plugins/test/e2e/csi-plugin/hostpath"
+	_ "github.com/k8s-plugins/test/e2e/enndatascheduler"
 )
 
 func init() {

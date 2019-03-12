@@ -1,9 +1,10 @@
 package nshostpathprivilege
 
 import (
-	"k8s-plugins/test/e2e/framework"
-	imageutils "k8s-plugins/test/e2e/utils/images"
 	"strings"
+
+	"github.com/k8s-plugins/test/e2e/framework"
+	imageutils "github.com/k8s-plugins/test/e2e/utils/images"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

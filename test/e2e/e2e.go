@@ -2,18 +2,19 @@ package e2e
 
 import (
 	"fmt"
-	"k8s-plugins/test/e2e/framework"
-	"k8s-plugins/test/e2e/framework/ginkgowrapper"
 	"os"
 	"path"
 	"testing"
 
-	"github.com/golang/glog"
+	"github.com/k8s-plugins/test/e2e/framework"
+	"github.com/k8s-plugins/test/e2e/framework/ginkgowrapper"
+
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/ginkgo/config"
 	"github.com/onsi/ginkgo/reporters"
 	"github.com/onsi/gomega"
 	"k8s.io/apiserver/pkg/util/logs"
+	glog "k8s.io/klog"
 )
 
 func RunE2ETests(t *testing.T) {

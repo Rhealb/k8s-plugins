@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"k8s-plugins/csi-plugin/hostpathpv/pkg/hostpath"
+	"github.com/Rhealb/csi-plugin/hostpathpv/pkg/hostpath"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

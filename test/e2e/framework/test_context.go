@@ -6,11 +6,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/golang/glog"
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
-	"k8s.io/kubernetes/pkg/kubelet/apis/kubeletconfig"
+	glog "k8s.io/klog"
+	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
 )
 
 const defaultHost = "http://127.0.0.1:8080"

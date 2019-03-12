@@ -4,14 +4,15 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"k8s-plugins/csi-plugin/hostpathpv/pkg/hostpath"
-	"k8s-plugins/csi-plugin/hostpathpv/pkg/hostpath/xfsquotamanager/common"
-	"k8s-plugins/test/e2e/framework/ginkgowrapper"
 	"path"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/Rhealb/csi-plugin/hostpathpv/pkg/hostpath"
+	"github.com/Rhealb/csi-plugin/hostpathpv/pkg/hostpath/xfsquotamanager/common"
+	"github.com/k8s-plugins/test/e2e/framework/ginkgowrapper"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -4,11 +4,12 @@ import (
 	"bytes"
 	"fmt"
 	"io"
-	"k8s-plugins/test/e2e/framework"
-	imageutils "k8s-plugins/test/e2e/utils/images"
 	"os"
 	"strings"
 	"sync"
+
+	"github.com/k8s-plugins/test/e2e/framework"
+	imageutils "github.com/k8s-plugins/test/e2e/utils/images"
 
 	"k8s.io/apimachinery/pkg/util/wait"
 

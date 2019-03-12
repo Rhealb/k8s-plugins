@@ -1,7 +1,7 @@
 package hppvtocsipv
 
 import (
-	"k8s-plugins/test/e2e/framework"
+	"github.com/k8s-plugins/test/e2e/framework"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
