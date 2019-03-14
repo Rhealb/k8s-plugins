@@ -19,4 +19,4 @@ limitations under the License.
 // +k8s:openapi-gen=true
 
 // Package v1alpha1 provides alpha API for CSI API objects.
-package v1alpha1 // import "k8s.io/csi-api/pkg/apis/csi/v1alpha1"
+package v1alpha1
