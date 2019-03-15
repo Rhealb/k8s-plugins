@@ -434,8 +434,8 @@ var _ = SIGDescribe("CSIHostPath", func() {
 				Expect(mountInfo[1].MountInfos[0].VolumeQuotaSize).To(Equal(testSize))
 				Expect(mountInfo[0].MountInfos[0].PodInfo).NotTo(BeNil())
 				Expect(mountInfo[1].MountInfos[0].PodInfo).NotTo(BeNil())
-				Expect(mountInfo[0].MountInfos[0].PodInfo.Info == podInfo || mountInfo[0].MountInfos[0].PodInfo.Info == podInfo).To(Equal(true))
-				Expect(mountInfo[1].MountInfos[0].PodInfo.Info == podInfo2 || mountInfo[1].MountInfos[0].PodInfo.Info == podInfo2).To(Equal(true))
+				Expect(mountInfo[0].MountInfos[0].PodInfo.Info == podInfo || mountInfo[1].MountInfos[0].PodInfo.Info == podInfo).To(Equal(true))
+				Expect(mountInfo[0].MountInfos[0].PodInfo.Info == podInfo2 || mountInfo[1].MountInfos[0].PodInfo.Info == podInfo2).To(Equal(true))
 			}
 
 			By("Scale pv's capcity")
@@ -482,8 +482,8 @@ var _ = SIGDescribe("CSIHostPath", func() {
 				Expect(mountInfo[1].MountInfos[0].VolumeQuotaSize).To(Equal(testSize * 2))
 				Expect(mountInfo[0].MountInfos[0].PodInfo).NotTo(BeNil())
 				Expect(mountInfo[1].MountInfos[0].PodInfo).NotTo(BeNil())
-				Expect(mountInfo[0].MountInfos[0].PodInfo.Info == podInfo || mountInfo[0].MountInfos[0].PodInfo.Info == podInfo).To(Equal(true))
-				Expect(mountInfo[1].MountInfos[0].PodInfo.Info == podInfo2 || mountInfo[1].MountInfos[0].PodInfo.Info == podInfo2).To(Equal(true))
+				Expect(mountInfo[0].MountInfos[0].PodInfo.Info == podInfo || mountInfo[1].MountInfos[0].PodInfo.Info == podInfo).To(Equal(true))
+				Expect(mountInfo[0].MountInfos[0].PodInfo.Info == podInfo2 || mountInfo[1].MountInfos[0].PodInfo.Info == podInfo2).To(Equal(true))
 			}
 
 			By("Delete pod2")
@@ -743,8 +743,8 @@ var _ = SIGDescribe("CSIHostPath", func() {
 				Expect(mountInfo[1].MountInfos[0].VolumeQuotaSize).To(Equal(testSize * 2))
 				Expect(mountInfo[0].MountInfos[0].PodInfo).NotTo(BeNil())
 				Expect(mountInfo[1].MountInfos[0].PodInfo).NotTo(BeNil())
-				Expect(mountInfo[0].MountInfos[0].PodInfo.Info == podInfo || mountInfo[0].MountInfos[0].PodInfo.Info == podInfo).To(Equal(true))
-				Expect(mountInfo[1].MountInfos[0].PodInfo.Info == podInfo3 || mountInfo[1].MountInfos[0].PodInfo.Info == podInfo3).To(Equal(true))
+				Expect(mountInfo[0].MountInfos[0].PodInfo.Info == podInfo || mountInfo[1].MountInfos[0].PodInfo.Info == podInfo).To(Equal(true))
+				Expect(mountInfo[0].MountInfos[0].PodInfo.Info == podInfo3 || mountInfo[1].MountInfos[0].PodInfo.Info == podInfo3).To(Equal(true))
 			}
 		}, 100)
 })
