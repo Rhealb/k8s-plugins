@@ -43,7 +43,7 @@ func (i *ImageConfig) SetVersion(version string) {
 }
 
 var (
-	Alpine = ImageConfig{"127.0.0.1:29006", "library/alpine", "latest", false}
+	Alpine = ImageConfig{framework.TestContext.ClusterRegistry, "library/alpine", "latest", false}
 	Pause  = ImageConfig{framework.TestContext.ClusterRegistry, "library/pause", "3.0", false}
 )
 
